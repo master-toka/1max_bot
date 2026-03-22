@@ -6,9 +6,9 @@ from maxapi.types import MessageCreated
 logging.basicConfig(level=logging.INFO)
 
 # --- КОНФИГУРАЦИЯ ---
-BOT_TOKEN = "f9LHodD0cOK2Kds4gdFs3YnLHX14diXeMOThXWoPWt3H7KZm7UF0A3ZEtj6GK6q5K0bY2smJORcRiMLxDWM1"
-YOUR_CHANNEL_ID = -71133736408572  # ID канала, за которым следим. Например, -1001234567890
-DISCUSSION_CHAT_NAME = "Комментарии"
+BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
+YOUR_CHANNEL_ID = ID_ВАШЕГО_КАНАЛА  # Например, -1001234567890
+DISCUSSION_CHAT_ID = ID_ЧАТА_ОБСУЖДЕНИЙ  # ID группы, куда будут копироваться посты
 
 bot = Bot(BOT_TOKEN)
 dp = Dispatcher()
